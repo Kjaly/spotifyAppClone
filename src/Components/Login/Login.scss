@@ -1,0 +1,19 @@
+.login{
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  background: #000;
+
+  &__logo{
+    width: 100%;
+
+  }
+  &__link{
+    padding: 20px;
+    border-radius:99px ;
+    background: #1db954;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+  }
+}

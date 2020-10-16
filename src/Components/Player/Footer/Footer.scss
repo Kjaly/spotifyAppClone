@@ -1,0 +1,41 @@
+.footer{
+  position: fixed;
+  bottom: 0;
+  height: 65px;
+  background: #282828;
+  color: #fff;
+  padding:20px;
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+
+  &__left{
+    flex:0.3;
+    display: flex;
+    align-items: center;
+
+  }
+  &__center{
+    flex:0.4;
+    padding: 0 100px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 300px;
+  }
+  &__right{
+  flex:0.3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 300px;
+  }
+  &__albumLogo{
+  height: 60px;
+    width: 60px;
+    margin-right: 20px;
+    object-fit: contain;
+  }
+
+}
